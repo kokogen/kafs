@@ -1,0 +1,10 @@
+{
+  "namespace" : "InfoItem.avro",
+  "type" : "record",
+  "fields" : [
+    {"name" :  "id", "type" : "long"},
+    {"name" :  "name", "type" : "string"},
+    {"name" :  "ts", "type" : "timestamp"},
+    {"name" :  "value", "type" : "double"}
+  ]
+}
